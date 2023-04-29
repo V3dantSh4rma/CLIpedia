@@ -13,12 +13,13 @@ Type the given commands in your terminal:
 ```
 git clone https://github.com/V3dantSh4rma/CLIpedia.git
 cd CLIpedia
-npm install -g
+npm install
+tsc
 npm link
 chmod +x dist/index.js
 ```
 
-Viola! It is now successfully installed on your system.
+Viola! It is now successfully installed on your project directory.
 
 # Usage
 Example: ```clipedia 2pac -o MD``` 
